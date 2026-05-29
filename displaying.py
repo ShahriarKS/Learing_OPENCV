@@ -1,3 +1,5 @@
+#TWO
+
 # three functions 
 
 # imshow("title",variable) -> it creates a window to show the image
@@ -6,7 +8,7 @@
 
 import cv2
 
-image=cv2.imread("vanG.jpg")
+image=cv2.imread("imageFolder/vanG.jpg")
 
 if image is not None : 
  cv2.imshow("van gogh er chobi",image)
